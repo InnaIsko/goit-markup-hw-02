@@ -1,1 +1,84 @@
-{ba}
+:root {
+  --accent-color: #2196f3;
+  --title-text-color: #757575;
+  --primary-text-title: #212121;
+  --logo-black: #000000;
+  --footer-text-primary: #ffffff;
+  --fotter-text-title: rgba(255, 255, 255, 0.6);
+  --secondary-background: #2f303a;
+  --primary-background: #ffffff;
+  --background: #f5f4fa;
+}
+body {
+  background-color: var(--primary-background);
+  color: var(--title-text-color);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*head*/
+
+.logo {
+  color: var(--logo-black);
+}
+.logo > span {
+  color: var(--accent-color);
+}
+.nav-link {
+  color: var(--primary-text-title);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+/*section*/
+
+.section-title {
+  color: var(--primary-text-title);
+}
+.features .title {
+  color: var(--primary-text-title);
+}
+.meta .title {
+  color: var(--primary-text-title);
+}
+.link {
+  color: var(--title-text-color);
+}
+.footer-title {
+  color: var(--footer-text-primary);
+}
+.footer-title {
+  color: var(--fotter-text-title);
+}
+.button {
+  color: var(--primary-text-title);
+  background-color: #f5f4fa;
+}
+.button:hover {
+  background-color: #2196f3;
+  color: var(--footer-text-primary);
+}
+.btn {
+  background-color: #2196f3;
+  color: var(--footer-text-primary);
+}
+.contacts a {
+  color: var(--title-text-color);
+}
+
+.contacts a:hover {
+  color: #2196f3;
+}
+.hero {
+  background-color: var(--secondary-background);
+  color: var(--footer-text-primary);
+}
+.caption {
+  background-color: var(--background);
+}
