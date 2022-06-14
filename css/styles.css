@@ -168,7 +168,7 @@ a {
 .btn:hover,
 .btn:focus {
   background-color: var(--but);
-
+}
 .caption {
   background-color: var(--background);
 }
