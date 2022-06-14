@@ -26,7 +26,7 @@ a {
 /*head*/
 
 .logo {
-  color: var(--logo-black);
+  color: var(--footer-text-primary);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -68,6 +68,9 @@ a {
 /*hero*/
 .hero {
   background-color: var(--secondary-background);
+  text-align: center;
+}
+.hero-title {
   color: var(--footer-text-primary);
   font-weight: 900;
   font-size: 44px;
@@ -88,16 +91,11 @@ a {
 .features .title {
   color: var(--primary-text-title);
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-.features .text {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .features .tagline {
   font-size: 14px;
   line-height: 1.71;
@@ -127,6 +125,7 @@ a {
   color: var(--fotter-text-title);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer-title:hover,
 .footer-link:hover,
@@ -136,6 +135,20 @@ a {
 }
 .footer {
   background-color: var(--secondary-background);
+}
+
+.logo-header {
+  color: var(--logo-black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-header > span {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 /*button*/
 .button {
