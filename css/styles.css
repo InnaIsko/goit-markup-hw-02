@@ -8,6 +8,7 @@
   --secondary-background: #2f303a;
   --primary-background: #ffffff;
   --background: #f5f4fa;
+  --but: #188ce8;
 }
 body {
   background-color: var(--primary-background);
@@ -29,7 +30,7 @@ a {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logo > span {
   color: var(--accent-color);
@@ -44,6 +45,9 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav .current {
+  color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -74,8 +78,12 @@ a {
 }
 /*section*/
 
-.section-title {
+.section-desc {
   color: var(--primary-text-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .features .title {
   color: var(--primary-text-title);
@@ -84,18 +92,41 @@ a {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.features .text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.features .tagline {
+  font-size: 14px;
+  line-height: 1.71;
+}
 .meta .title {
   color: var(--primary-text-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.meta .lead {
+  font-size: 16px;
+  line-height: 1.19;
 }
 .link {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
 /*footer*/
 .footer-link {
   color: var(--footer-text-primary);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-title {
   color: var(--fotter-text-title);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-title:hover,
 .footer-link:hover,
@@ -109,15 +140,21 @@ a {
 /*button*/
 .button {
   color: var(--primary-text-title);
-  background-color: #f5f4fa;
+  background-color: var(--background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
 }
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--footer-text-primary);
 }
 .btn {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--footer-text-primary);
   font-weight: 700;
   font-size: 16px;
@@ -126,7 +163,11 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
+.btn:hover,
+.btn:focus {
+  background-color: var(--but);
 
 .caption {
   background-color: var(--background);
