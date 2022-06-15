@@ -95,6 +95,12 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.features .title-texst {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-title);
+}
 
 .features .tagline {
   font-size: 14px;
@@ -120,6 +126,7 @@ a {
   color: var(--footer-text-primary);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer-title {
   color: var(--fotter-text-title);
